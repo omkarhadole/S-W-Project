@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -27,11 +27,12 @@ body {
     margin-right: 4rem;
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
     text-decoration: none;
     
   }
   
-  /* Navigation bar position */
+  /* Navigation bar position*/
   .nav-left, .nav-right , .nav-center {
     display: flex;
     list-style: none;
@@ -50,7 +51,7 @@ body {
     font-weight: normal;
     font-size: x-small;
     color: black;
-
+    font-family: "Roboto Mono";
   }
   
   .nav-left {
@@ -60,52 +61,3 @@ body {
   .nav-right {
     margin-left: auto;
   }
-
-.title {
-    margin-top: 55px;
-    margin-bottom: 20px;
-    font-size: 4rem;
-    text-align: center;
-    text-transform: uppercase;
-
-    font-weight: lighter;
-
-}
-.hero {
-  text-align: center;
-}
-.hero img {
-  margin-top: 0px;
-  max-width: 95%;
-  max-height: 400px;
-  object-fit: cover;
-}
-
-.hero p {
-  text-align: center;
-  margin: 20px auto;
-
-  font-weight: 400;
-  font-size: 24px;
-  padding: 76px 139px;
-}
-
-.imagefive{
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-  
-}
-.fiveimage{
-  max-width: 95%;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border: 1px solid black;
-  overflow: auto;
-  margin: 0px;
-  padding: 0px;
-  object-fit: cover;
-}
